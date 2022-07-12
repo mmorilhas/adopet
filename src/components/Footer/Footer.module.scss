@@ -1,0 +1,15 @@
+@import '../../styles/variaveis';
+
+.footer {
+  background: $verde;
+  height: 6.5rem;
+  width: 100vw;
+
+  &__text {
+    font-family: $fonte-primaria;
+    font-size: 1rem;
+    color: $branco;
+    text-align: center;
+    margin-top: 2.75rem;
+  }
+}

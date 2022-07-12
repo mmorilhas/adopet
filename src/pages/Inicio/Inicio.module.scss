@@ -1,0 +1,80 @@
+@import '../../styles/variaveis';
+
+body {
+  background-color: $azul;
+}
+
+.inicio {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  padding: 56px 56px 0 56px ;
+  
+
+  &__logo {
+    display: block;
+    margin: auto;
+  }
+
+  &__titulo{
+    font-family: $fonte-secundaria;
+    color: $branco;
+    font-weight: 500;
+    font-size: 1.625rem;
+    line-height: 3rem;
+    text-align: center;
+  }
+
+  &__texto {
+    color: $branco;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+  
+  &__botao {
+    display: block;
+    margin: 0.5rem auto;
+    width: 80%;
+    height: 40px;
+    background-color: $coral;
+    border-radius: 6px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.1);
+    color: $branco;
+    text-decoration: none;
+    font-family: $fonte-primaria;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 2rem;
+  }
+
+  &__ilustracao {
+    background-image: url('../../assets/Ilustracao.png');
+    background-position: bottom -10px center;
+    background-repeat: no-repeat;
+    background-size: 100% ; 
+    width: 14.7rem;
+    height: 19.6rem;
+  }
+
+}
+
+
+/*
+.lateral_direita {
+  background-image: url("../../assets/Lateral.svg");
+  height: 26.063rem;
+  width: 4.438rem;
+  position: absolute;
+  left: 0;
+  top: 23.25rem;
+  transform: scaleY(-1);
+  transform: rotateY(180deg);
+}
+&__catDog {
+  width: 247.34px;
+  height: 312.77px;
+  margin-top: 2rem;    
+}
+*/
